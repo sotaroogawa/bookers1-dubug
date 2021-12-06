@@ -4,7 +4,7 @@ class BooksController < ApplicationController
 
   def index
     @books = Book.all
-    @book = Book.new
+    @book = Book.new.allconflict
   end
 
   def create
